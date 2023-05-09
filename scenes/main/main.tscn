@@ -1,11 +1,21 @@
-[gd_scene load_steps=5 format=3 uid="uid://c1ep4u4k353qe"]
+[gd_scene load_steps=8 format=3]
 
-[ext_resource type="PackedScene" uid="uid://civq3sp8t6nrp" path="res://scenes/player/Player.tscn" id="1_btqs1"]
+[ext_resource type="PackedScene" path="res://scenes/player/Player.tscn" id="1_btqs1"]
 [ext_resource type="TileSet" uid="uid://bmt8t0b7bfq0f" path="res://resources/tileset.tres" id="1_cry2y"]
-[ext_resource type="PackedScene" uid="uid://dg73n80t1wbkc" path="res://scenes/game_camera/camera_2d.tscn" id="3_2xbcj"]
-[ext_resource type="PackedScene" uid="uid://xjid2nv3khas" path="res://scenes/basic_enemy/basic_enemy.tscn" id="4_kqg2y"]
+[ext_resource type="PackedScene" uid="uid://blskf6883ink3" path="res://scenes/UI/arena_time_ui.tscn" id="1_gaswf"]
+[ext_resource type="PackedScene" path="res://scenes/manager/enemy_spawner_manager.tscn" id="1_xrkya"]
+[ext_resource type="PackedScene" uid="uid://cgb6w6iekbgql" path="res://scenes/manager/arena_time_manager.tscn" id="2_k2ppm"]
+[ext_resource type="PackedScene" path="res://scenes/game_object/game_camera/camera_2d.tscn" id="3_2xbcj"]
+[ext_resource type="PackedScene" path="res://scenes/game_object/basic_enemy/basic_enemy.tscn" id="4_kqg2y"]
 
 [node name="Main" type="Node"]
+
+[node name="ArenaTimeUI" parent="." node_paths=PackedStringArray("arena_time_manager") instance=ExtResource("1_gaswf")]
+arena_time_manager = NodePath("../ArenaTimeManager")
+
+[node name="ArenaTimeManager" parent="." instance=ExtResource("2_k2ppm")]
+
+[node name="EnemySpawnerManager" parent="." instance=ExtResource("1_xrkya")]
 
 [node name="Camera2D" parent="." instance=ExtResource("3_2xbcj")]
 
@@ -20,3 +30,6 @@ position = Vector2(167, 122)
 
 [node name="BasicEnemy" parent="." instance=ExtResource("4_kqg2y")]
 position = Vector2(33, 68)
+
+[node name="BasicEnemy2" parent="." instance=ExtResource("4_kqg2y")]
+position = Vector2(458, 199)

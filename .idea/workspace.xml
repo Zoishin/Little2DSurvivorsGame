@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ed452b50-86b8-4a60-a57d-a6f84b4888a4" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/environment/tilemap_packed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/assets/environment/tilemap_packed.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/tileset.tres" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scenes/ability/sword_ability/sword.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scenes/ability/sword_ability/sword.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scenes/ability/sword_ability/sword_ability.tscn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scenes/basic_enemy/basic_enemy.gd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scenes/basic_enemy/basic_enemy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scenes/basic_enemy/basic_enemy.png.import" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scenes/basic_enemy/basic_enemy.tscn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scenes/game_camera/camera_2d.gd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scenes/game_camera/camera_2d.tscn" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scenes/main/main.tscn" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.godot" beforeDir="false" afterPath="$PROJECT_DIR$/project.godot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/player/Player.gd" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/player/Player.gd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scenes/player/Player.tscn" beforeDir="false" afterPath="$PROJECT_DIR$/scenes/player/Player.tscn" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="2PVWlF6bHJsrCZpljflROhEoCNZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ed452b50-86b8-4a60-a57d-a6f84b4888a4" name="Changes" comment="" />
+      <created>1683542883629</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1683542883629</updated>
+    </task>
+    <servers />
+  </component>
+</project>
